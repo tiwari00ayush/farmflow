@@ -5,9 +5,9 @@ const Header = () => {
   const navLinks = ["Home", "Features", "Pricing", "About us"];
   return (
     <div className="px-[2%]  flex justify-between items-center shadow-md shadow-[#59874f]">
-      <div>
+      <Link to={"/"}>
         <img src={logo} alt="logo" className="w-[100px]" />
-      </div>
+      </Link>
       <div className="flex text-[1.1rem] items-center">
         {navLinks.map((link, index) => (
           <a
