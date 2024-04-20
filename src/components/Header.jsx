@@ -17,6 +17,11 @@ const Header = () => {
             {link}
           </a>
         ))}
+        <Link to={"/dashboard"} className="ml-5">
+          <button className="px-3 py-2 rounded-md bg-[#eddd5e] hover:bg-[#59874f] ease-in-out  hover:text-white duration-500">
+            Dashboard
+          </button>
+        </Link>
         <a href="#" className="ml-5">
           <button className="px-3 py-2 rounded-md bg-[#eddd5e] hover:bg-[#59874f] ease-in-out  hover:text-white duration-500">
             Login
